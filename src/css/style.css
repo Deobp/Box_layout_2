@@ -28,6 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 5%;
+  outline: none;
 }
 
 .app-try-free {
@@ -76,4 +77,8 @@ body {
 
 .user-data {
   margin: 5%;
+}
+
+#app-form p {
+  color: hsl(246, 25%, 77%);
 }
