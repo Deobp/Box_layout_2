@@ -24,6 +24,11 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.app-apply p {
+  color: hsl(246, 25%, 77%);
+  font-size: 16px;
+  text-align: center;
+}
 
 #first-name,
 #last-name,
@@ -53,7 +58,7 @@ h1 {
 
 #app-form {
   background-color: white;
-  height: 50vh;
+
   width: 80%;
   border-radius: 10px;
   margin-top: 5%;
@@ -79,8 +84,12 @@ h1 {
   border: none;
   border-bottom-color: #2ba671;
   outline: none;
+  font-weight: 700;
 }
 
+#app-button-trial:hover {
+  background-color: #38cc8c;
+}
 .app-form p {
   color: hsl(246, 25%, 77%);
 }
