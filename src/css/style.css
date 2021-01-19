@@ -101,3 +101,10 @@ h1 {
 .user-data {
   margin: 5%;
 }
+
+@media screen and (max-width: 500px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}
