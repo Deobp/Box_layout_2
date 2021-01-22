@@ -10,9 +10,11 @@ body {
   color: white;
   height: 100vh;
 }
+
 h1 {
   font-size: 3em;
 }
+
 .description {
   font-weight: 500;
 }
@@ -24,9 +26,10 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .app-apply p {
   color: hsl(246, 25%, 77%);
-  font-size: 16px;
+  font-size: 11px;
   text-align: center;
 }
 
@@ -41,6 +44,8 @@ h1 {
   margin: 5%;
   outline: none;
   border: 1px solid #b9b6d3;
+  box-sizing: border-box;
+  padding: 5%;
 }
 
 .app-try-free {
@@ -52,6 +57,11 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.app-try-free p {
+  color: white;
+  font-size: 16px;
+}
+
 #free-days {
   font-weight: bold;
 }
@@ -89,9 +99,6 @@ h1 {
 
 #app-button-trial:hover {
   background-color: #38cc8c;
-}
-.app-form p {
-  color: hsl(246, 25%, 77%);
 }
 
 #terms {
