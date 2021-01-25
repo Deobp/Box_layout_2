@@ -115,4 +115,7 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+  .app-offer p {
+    text-align: center;
+  }
 }
