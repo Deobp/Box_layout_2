@@ -98,6 +98,7 @@ h1 {
   border-bottom-color: #2ba671;
   outline: none;
   font-weight: 700;
+  border-bottom: 3px solid #2ba671;
 }
 
 #app-button-trial:hover {
