@@ -106,6 +106,7 @@ h1 {
 
 #terms {
   color: hsl(0, 100%, 74%);
+  font-weight: 700;
 }
 
 .user-data {
