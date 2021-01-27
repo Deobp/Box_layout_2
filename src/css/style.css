@@ -1,14 +1,17 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background: hsl(0, 100%, 74%) url("../img/bg-intro-desktop.png") no-repeat
+    center/ cover;
+  min-height: 100vh;
 }
 
 .app {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background: hsl(0, 100%, 74%) url("../img/bg-intro-desktop.png");
-  color: white;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 h1 {
@@ -19,12 +22,20 @@ h1 {
   font-weight: 500;
 }
 
-.app-offer,
+.app-offer {
+  width: 50%;
+  text-align: center;
+  min-width: 510px;
+  max-width: 550px;
+}
+
 .app-apply {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  min-width: 510px;
+  max-width: 550px;
 }
 
 .app-apply p {
@@ -114,12 +125,24 @@ h1 {
   margin: 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .app {
     display: flex;
     flex-direction: column;
   }
   .app-offer p {
     text-align: center;
+    font-weight: 400;
+  }
+  .app-offer-text {
+    font-weight: 400;
+  }
+  .app-offer h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .app-apply,
+  .app-offer {
+    min-width: 350px;
   }
 }
