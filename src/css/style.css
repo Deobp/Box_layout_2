@@ -22,20 +22,10 @@ h1 {
   font-weight: 500;
 }
 
-.app-offer {
-  width: 50%;
-  text-align: center;
-  min-width: 510px;
-  max-width: 550px;
-}
-
+.app-offer,
 .app-apply {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 510px;
-  max-width: 550px;
+  flex: 0 1 540px;
+  padding: 2em;
 }
 
 .app-apply p {
@@ -63,7 +53,6 @@ h1 {
 
 .app-try-free {
   background-color: hsl(248, 32%, 49%);
-  width: 80%;
   border-radius: 0.25em;
 
   display: flex;
@@ -71,6 +60,7 @@ h1 {
   align-items: center;
   box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.3);
 }
+
 .app-try-free p {
   color: white;
   font-size: 16px;
@@ -82,7 +72,7 @@ h1 {
 
 #app-form {
   background-color: white;
-  width: 80%;
+  padding: 2em;
   border-radius: 10px;
   margin-top: 5%;
   box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.3);
@@ -125,24 +115,19 @@ h1 {
   margin: 5%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .app {
-    display: flex;
     flex-direction: column;
   }
-  .app-offer p {
-    text-align: center;
-    font-weight: 400;
-  }
-  .app-offer-text {
-    font-weight: 400;
-  }
-  .app-offer h1 {
-    font-size: 32px;
-    font-weight: 500;
-  }
+
   .app-apply,
   .app-offer {
-    min-width: 350px;
+    flex: 1 1 100%;
+    padding: 1.5em;
+  }
+
+  .app-offer {
+    text-align: center;
+    margin-bottom: 2em;
   }
 }
